@@ -1,0 +1,13 @@
+Date: Mon, 14 Feb 2022 18:41:56 GMT
+Content-Type: text/html
+Cache-Control: public
+Expires: Mon, 14 Feb 2022 18:44:55 GMT
+Vary: Accept-Encoding
+Last-Modified: Mon, 14 Feb 2022 17:22:16 GMT
+Cf-Cache-Status: EXPIRED
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5UJU%2B5QdP9C973gifB7XtSQUPEbgl7aPOqXZIMlpCoEh0%2BOzgO1dNCxLQfMPkjpBO64k0h4ILYUj22XOgwszpcNaHUSa4g1XmU78Js1o7wkq%2BbIHhNhg1XVhOERcDXTtPA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 6dd86ef0dabe8db4-MIA
+Content-Encoding: br

@@ -1,0 +1,1 @@
+{"type": "legend_meta", "first": "Wraith", "second": "Octane", "third": "Bloodhound", "fourth": "Pathfinder"}
