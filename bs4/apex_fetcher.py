@@ -1,5 +1,3 @@
-
-
 """
 RobotFetcher.py > apex_fetcher.py
 Jaracah Teague
