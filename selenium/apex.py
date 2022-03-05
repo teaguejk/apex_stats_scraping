@@ -16,7 +16,7 @@ import os
 
 # options
 overwrite = True
-headless = False
+headless = True
 
 # urls
 home = 'https://apex.tracker.gg/'
@@ -111,9 +111,10 @@ for link in link_hrefs:
 
 	with open('apex.jl', 'a') as fp:
 		fp.write(json.dumps(data))
+		fp.write('\n')
 
-#
-# -----------------------------------------------------------------------------------------------------
+
+## -----------------------------------------------------------------------------------------------------
 
 
 
