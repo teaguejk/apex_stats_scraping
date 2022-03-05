@@ -1,7 +1,8 @@
 """
 # Jaracah Teague
-# CS3435 - Program 4 Selenium
+# Apex - Selenium
 # Appalachian State University
+# 02/05/21
 """
 
 # -----------------------------------------------------------------------------------------------------

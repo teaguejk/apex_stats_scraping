@@ -1,11 +1,6 @@
-import scrapy
-import os
-import json
-
-
 """
 Jaracah Teague
-Data Collection & Visualization Program 3 - Scrapy
+Apex - Scrapy
 02/21/22
 
 References:
@@ -24,6 +19,10 @@ References:
 -> I added this functionality to save my self from typing since scrapys overwrite isnt working for me.
 
 """
+
+import scrapy
+import os
+import json
 
 # change overwrite to turn on/off
 # change separate_meta_legends to false to dump in a separate file

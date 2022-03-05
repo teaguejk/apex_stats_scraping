@@ -1,16 +1,9 @@
-from urllib.parse import urlparse
-from protego import Protego
-from bs4 import BeautifulSoup
-import requests
-import time
-import json
-import datetime as dt
+
 
 """
-RobotFetcher.py
+RobotFetcher.py > apex_fetcher.py
 Jaracah Teague
-Program 2
-CS3435
+Apex - BS4
 02/07/22
 
 Resources Used
@@ -24,8 +17,6 @@ https://apex.tracker.gg/apex/profile/origin/ernbrz/overview
 https://apex.tracker.gg/apex/profile/origin/Skittlecakes/overview
 https://apex.tracker.gg/apex/profile/origin/SSG_Dropped/overview
 https://apex.tracker.gg/apex/profile/origin/tttcheekyttt_SBI/overview
-
-
 https://apex.tracker.gg/apex/profile/xbl/nerf%20apex/overview
 
 Attributes
@@ -49,6 +40,15 @@ output that in a separate json file, should not execute any further code on that
 it is a separate item page.
 
 """
+
+from urllib.parse import urlparse
+from protego import Protego
+from bs4 import BeautifulSoup
+import requests
+import time
+import json
+import datetime as dt
+
 class RobotFetcher:
 
     def __init__(self, user_agent):
