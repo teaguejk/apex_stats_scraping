@@ -1,2 +1,2 @@
 # apex_stats_scraping
-Web Scraping Apex Legends Stats Page
+Web scraping an Apex Legends statistics website 'https://apex.tracker.gg/' using python with beautiful soup, scrapy, selenium, and other tools.
