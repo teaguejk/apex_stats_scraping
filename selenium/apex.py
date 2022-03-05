@@ -76,7 +76,7 @@ for link in link_hrefs:
 	# damage 	= stats[2].text
 	# matches = stats[3].text
 
-	# ranked stats
+	# ranked and arenas stats
 	rank 	= driver.find_elements_by_css_selector('div.rating-entry__rank > div > div.rating-entry__rank-info > div.label')
 	mmr 	= driver.find_elements_by_css_selector('div.rating-entry__rank > div > div.rating-entry__rank-info > div.value > span')
 
@@ -84,7 +84,7 @@ for link in link_hrefs:
 	br_mmr 	=  mmr[0].text.strip()
 
 	ar_rank = rank[1].text.strip()
-	ar_mmr 	= mmr[1].text.strip()
+	ar_mmr 	=  mmr[1].text.strip()
 
 	# gets most recently used legend
 	legend = driver.find_element_by_css_selector('div.legend__name').text
