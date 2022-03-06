@@ -25514,3 +25514,646 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/xt8fZ__SaXi8rLOjRFp
 1646464851397	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 1646464854614	Marionette	INFO	Stopped listening on port 2460
 [Parent 26296, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:565
+1646539247696	geckodriver	INFO	Listening on 127.0.0.1:57406
+1646539248068	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/yg/_44zc5bn5jqb8v4qqtyjg40m0000gn/T/rust_mozprofileNvKFjN"
+*** You are running in headless mode.
+1646539248794	Marionette	INFO	Marionette enabled
+1646539269987	geckodriver	INFO	Listening on 127.0.0.1:57429
+1646539270026	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/yg/_44zc5bn5jqb8v4qqtyjg40m0000gn/T/rust_mozprofile1jERhE"
+1646539270637	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yg/_44zc5bn5jqb8v4qqtyjg40m0000gn/T/rust_mozprofile1jERhE/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1646539272583	Marionette	INFO	Listening on port 57434
+1646539272708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ssl.cdne.cpmstar.com/cached/zonemasters/mobilemodules.js?ver=1189, line 93: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://server.cpmstar.com/tag.aspx?a=0_0176D4A8&group=57, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://server.cpmstar.com/tag.aspx?a=0_0176D4A8&group=58, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 7438 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 1125 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/yahoovpaidtwoint215831825037/moatvideo.js#_moatApi63451536, line 255: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56234, MediaDecoderStateMachine #1] WARNING: 1217f4a00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 1936 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56234, MediaDecoderStateMachine #1] WARNING: 126518400 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1646539345832	geckodriver	INFO	Listening on 127.0.0.1:58064
+1646539345855	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/yg/_44zc5bn5jqb8v4qqtyjg40m0000gn/T/rust_mozprofileimtask"
+1646539346391	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yg/_44zc5bn5jqb8v4qqtyjg40m0000gn/T/rust_mozprofileimtask/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1646539347962	Marionette	INFO	Listening on port 58069
+1646539348022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 3057 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 7492 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.clinch.co/a_styles/3233/LegalDrawer_for_vp_aid_with_color.js, line 9: TypeError: drawerLinkDiv is null
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1065ad900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=PAPZ::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript warning: https://z.moatads.com/thetradedeskvideo910663478306/moatvideo.js#_moatApi1822568, line 256: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 11aec5000 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+1646539410891	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 11ddbef00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 3885 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PIdleScheduler::Msg_IdleTimeUsed) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PIdleScheduler::Msg_IdleTimeUsed) Channel error: cannot send/recv
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 767 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646539461031	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539461038	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539461048	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539461050	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539461050	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539461391	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539461395	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 5834 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Reply_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+1646539486246	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539486269	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackground::Msg_PRemoteWorkerServiceConstructor) Channel error: cannot send/recv
+
+JavaScript warning: https://z.moatads.com/thetradedeskvideo910663478306/moatvideo.js#_moatApi97674746, line 256: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646539519578	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=, line 1: SyntaxError: illegal character U+0001
+1646539519616	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 13b8ca400 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 6758 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 56286, IPC I/O Parent] WARNING: pipe error: Socket is not connected: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:747
+[Parent 56286, IPC I/O Parent] WARNING: pipe error: Socket is not connected: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:747
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 4482 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/thetradedeskvideo910663478306/moatvideo.js#_moatApi70419997, line 256: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 132e71b00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+1646539546370	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539546374	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+1646539569515	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539569567	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1398ae100 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 7016 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1646539580776	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539580826	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539606724	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539606725	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539613488	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539620193	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539620195	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539620200	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539620214	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539620217	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 1377 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646539629398	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539629401	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539629406	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539629406	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539629406	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Parent 56286, IPC I/O Parent] WARNING: pipe error: Socket is not connected: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:747
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 5197 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackground::Msg_PRemoteWorkerServiceConstructor) Channel error: cannot send/recv
+
+1646539682156	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539682160	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539682177	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539682187	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539682187	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 12e44cf00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+1646539690455	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539690485	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539690485	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://z.moatads.com/thetradedeskvideo910663478306/moatvideo.js#_moatApi70419997, line 256: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 13446e500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 989 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 7220 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646539730805	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PIdleScheduler::Msg_IdleTimeUsed) Channel error: cannot send/recv
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 1094 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackground::Msg_PRemoteWorkerServiceConstructor) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackground::Msg_PRemoteWorkerServiceConstructor) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackground::Msg_PRemoteWorkerServiceConstructor) Channel error: cannot send/recv
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 6474 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646539749676	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539749809	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 3667 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646539761494	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackground::Msg_PRemoteWorkerServiceConstructor) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackground::Msg_PRemoteWorkerServiceConstructor) Channel error: cannot send/recv
+
+2022-03-06 04:09:24.188 plugin-container[56293:5077462] PLClientLogging: unknown permission type 2
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 2959 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646539767257	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackground::Msg_PRemoteWorkerServiceConstructor) Channel error: cannot send/recv
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 4644 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646539791084	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539791167	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539791292	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 1952 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1646539811728	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PIdleScheduler::Msg_IdleTimeUsed) Channel error: cannot send/recv
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 2105 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PIdleScheduler::Msg_IdleTimeUsed) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PIdleScheduler::Msg_IdleTimeUsed) Channel error: cannot send/recv
+
+1646539833628	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539843320	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+1646539863468	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539863475	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539863491	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PIdleScheduler::Msg_IdleTimeUsed) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PIdleScheduler::Msg_IdleTimeUsed) Channel error: cannot send/recv
+
+1646539875026	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539875026	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539875109	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539875110	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 7468 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 5464 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646539897590	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539897866	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539897868	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539897930	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539898217	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 1406 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 125896700 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+1646539909805	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539909867	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 1160 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 125394700 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 6305 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PIdleScheduler::Msg_IdleTimeUsed) Channel error: cannot send/recv
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 3726 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1066d5300 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+1646539979236	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539988504	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646539988505	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 6655 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 106474500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PIdleScheduler::Msg_IdleTimeUsed) Channel error: cannot send/recv
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 2351 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PIdleScheduler::Msg_IdleTimeUsed) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PIdleScheduler::Msg_IdleTimeUsed) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PClientManager::Msg_Teardown) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PIdleScheduler::Msg_RequestIdleTime) Channel error: cannot send/recv
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 5364 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 1811 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 2747 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 3285 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646540094306	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646540094310	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646540094319	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+1646540094336	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646540094337	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646540094470	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646540094491	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646540094493	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646540094539	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1646540094541	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 2164 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 11e0a1800 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://z.moatads.com/thetradedeskvideo910663478306/moatvideo.js#_moatApi70419997, line 256: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 112288f00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 2232 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1069edf00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1066d2100 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 1368 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1065ab200 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1065ad600 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 106b72c00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 117ab9800 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1121dac00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1160f8500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 115ca6c00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 112288200 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 11566a500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 115ca8600 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 115649a00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 4593 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1121a7600 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1121a7600 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1121a7600 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 106b73500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 114b89500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 106474500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: https://ap.lijit.com/containertag?zoneId=601053&containerId=3&v=4&tid=a_601053_070907c03c7740e49a765d1e0d4edbc9&loc=https://apex.tracker.gg/apex/leaderboards/stats/all/RankScore?page=1&gdpr_flag=, line 1: TypeError: sovrn.auction.fireTags is not a function
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 11640b900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 114125f00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1155c4100 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1121a6e00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 112371600 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 114124600 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1155cf000 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1121a8900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 112ab6500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 112372e00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 112372f00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 106474500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 106474500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 106474500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 112ab7500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 115ca6800 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 434: TypeError: channel is null
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.error: "Unable to find target with innerWindowId:6442453767"
+console.error: "Unable to find target with innerWindowId:6442453767"
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1203ef400 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://apex.tracker.gg/apex/leaderboards/stats/all/RankScore?page=1 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=, line 1: SyntaxError: illegal character U+0001
+JavaScript warning: https://z.moatads.com/thetradedeskv275874568748/moatad.js#moatClientLevel1=88onhnw&moatClientLevel2=l5o577a&moatClientLevel3=wk69w5r&moatClientSlicer1=apex.tracker.gg&zMoatImpressionId=3e289fdb-4a53-41e1-84b1-10c0cdfd6f4e&zMoatCachebuster=529253&zMoatPartnerID=cadvtkk&zMoatViewType=0&zMoatCreative=rzwfmo9s&zMoatDealID=&zMoatSupplyVendor=triplelift&zMoatSite=apex.tracker.gg&zMoatPublisherID=10693&moatClientLevel4=https%3A%2F%2Finsight.adsrvr.org%2Fenduser%2Fpie%2F%3Fpie%3D20%26vet%3DVIEWABILITY_EVENT_TYPE%26rtb%3DdD0xJmlpZD0zZTI4OWZkYi00YTUzLTQxZTEtODRiMS0xMGMwY2RmZDZmNGUmY3JpZD1yendmbW85cyZ3cD0ke0FVQ1RJT05fUFJJQ0V9JmFpZD0xJndwYz1VU0Qmc2ZlPTE0NWJiN2E2JnB1aWQ9JnBpZD1jYWR2dGtrJmFnPXdrNjl3NXImYWR2PTg4b25obncmYnA9OSZjZj0yODUzODcxJmZxPTAmdGRfcz1hcGV4LnRyYWNrZXIuZ2cmcmNhdHM9aGhyLDdzcCZtY2F0PWRvdWJsZXZlcmlmeS12ZDJpYWItNTAmbXN0ZT0mbWZsZD00Jm1zc2k9Jm1mc2k9JnVob3c9MTY3JmFnc2E9JnJnej0yODExNyZzdmJ0dGQ9MSZkdD1QQyZvc2Y9T1NYJm9zPU90aGVyJmJyPUZpcmVmb3gmcmxhbmdzPWVuJm1sYW5nPSZzdnBpZD0xMDY5MyZkaWQ9JnJjeHQ9T3RoZXImbGF0PTM1LjU4MzgwMCZsb249LTgwLjg2NDAwMCZ0bXBjPSZkYWlkPSZ2cD0wJm9zaT0mb3N2PSZiZmZpPTQxJm1rPU1vemlsbGEmbWRsPUZpcmVmb3glMjAtJTIwT1MlMjBYJmM9Q2cxVmJtbDBaV1FnVTNSaGRHVnpFZzVPYjNKMGFDQkRZWEp2YkdsdVlSb0ROVEUzSWd0TmIyOXlaWE4yYVd4c1pUZ0JVQUdBQVFDSUFRR1FBUUUuJmR1cj1DajRLSVdOb1lYSm5aUzFoYkd4RWIzVmliR1ZXWlhKcFpubFdhV1YzWVdKcGJHbDBlU0laQ1BEX19fX19fX19fX3dFU0RHUnZkV0pzWlhabGNtbG1lUW9fQ2lKamFHRnlaMlV0WVd4c1JHOTFZbXhsVm1WeWFXWjVRbTkwUVhadmFXUmhibU5sSWhrSTVfX19fX19fX19fX0FSSU1aRzkxWW14bGRtVnlhV1o1Q2o0S0lXTm9ZWEpuWlMxdFlYaEViM1ZpYkdWV1pYSnBabmxDY21GdVpGTmhabVYwZVNJWkNOdl9fX19fX19fX193RVNER1J2ZFdKc1pYWmxjbWxtZVFwRENpWmphR0Z5WjJVdFlXeHNSRzkxWW14bFZtVnlhV1o1UTNWemRHOXRRMjl1ZEdWNGRIVmhiQ0laQ0lmX19fX19fX19fX3dFU0RHUnZkV0pzWlhabGNtbG1lUXBJQ2lGamFHRnlaMlV0WVd4c1RXOWhkRlpwWlhkaFltbHNhWFI1VkhKaFkydHBibWNpSXdpbF9fX19fX19fX184QkVnNXRiMkYwTFhKbGNHOXlkR2x1WnlvR0NLQ05CaGdNJmNycmVscj0mYWRwdD10bF9sdHJpcGxlbGlmdCZpcGw9aGRfMTA3MDc5JmZwYT02MTEmcGNtPTMmc2FpZD0zODYzMjYzOTg3MzEzNDI3OTM2MzQ3MCZpY3Q9VW5rbm93biZhdWN0PTEmaW09MSZtYz1jMTMzZGQyZS1jODRlLTQ3ZmYtODZmZi1jOWE0NjY4ZTZhMWMmc3Y9dHJpcGxlbGlmdA.., line 249: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1737314271234/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1737314271234/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal1737314271234/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+_getWalker@resource://devtools/client/fronts/inspector.js:90:30
+initialize@resource://devtools/client/fronts/inspector.js:79:12
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "Unable to find target with innerWindowId:1715839434761"
+console.error: "Unable to find target with innerWindowId:1715839434771"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 4939 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1142dd500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 114277700 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 1174dca00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=, line 1: SyntaxError: illegal character U+0001
+JavaScript warning: https://z.moatads.com/triplelift879988051105/moatad.js#moatClientLevel1=8165&moatClientLevel2=47844&moatClientLevel3=undefined&moatClientLevel4=10&moatClientSlicer1=3658&moatClientSlicer2=568&tlview_id=tzhqx4zs&zMoatTactic=undefined&zMoatPixelParams=aid:9013976813611879465340;sr:10;uid:0;, line 247: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1737314271235/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1737314271235/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal1737314271235/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+_getWalker@resource://devtools/client/fronts/inspector.js:90:30
+initialize@resource://devtools/client/fronts/inspector.js:79:12
+
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 11b00f600 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 114125d00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 114125600 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "Unable to find target with innerWindowId:1722281885776"
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 11d154f00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: https://fdyn.pubwise.io/script/8e8b7267-5938-41ec-b047-b7e985fc9645/v3/dyn/pws.js?type=default, line 1151: TypeError: s is undefined
+JavaScript error: https://fdyn.pubwise.io/script/8e8b7267-5938-41ec-b047-b7e985fc9645/v3/dyn/pws.js?type=default, line 1151: TypeError: s is undefined
+JavaScript error: https://fdyn.pubwise.io/script/8e8b7267-5938-41ec-b047-b7e985fc9645/v3/dyn/pws.js?type=default, line 1151: TypeError: s is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://fdyn.pubwise.io/script/8e8b7267-5938-41ec-b047-b7e985fc9645/v3/dyn/pws.js?type=default, line 1151: TypeError: s is undefined
+JavaScript error: https://fdyn.pubwise.io/script/8e8b7267-5938-41ec-b047-b7e985fc9645/v3/dyn/pws.js?type=default, line 1151: TypeError: s is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 5143 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 4943 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://fdyn.pubwise.io/script/8e8b7267-5938-41ec-b047-b7e985fc9645/v3/dyn/pws.js?type=default, line 1151: TypeError: s is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 7194 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://fdyn.pubwise.io/script/8e8b7267-5938-41ec-b047-b7e985fc9645/v3/dyn/pws.js?type=default, line 1151: TypeError: s is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 4524 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 4888 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "Unable to find target with innerWindowId:6442453793"
+console.error: "Unable to find target with innerWindowId:6442453793"
+console.error: "Unable to find target with innerWindowId:6442453793"
+console.error: "Unable to find target with innerWindowId:6442453793"
+console.error: "Unable to find target with innerWindowId:6442453793"
+console.error: "Unable to find target with innerWindowId:6442453793"
+console.error: "Unable to find target with innerWindowId:6442453793"
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 1751: NS_ERROR_XPC_BAD_CONVERT_NATIVE: Could not convert Native argument arg 0 [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 1751: NS_ERROR_XPC_BAD_CONVERT_NATIVE: Could not convert Native argument arg 0 [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 1751: NS_ERROR_XPC_BAD_CONVERT_NATIVE: Could not convert Native argument arg 0 [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 1751: NS_ERROR_XPC_BAD_CONVERT_NATIVE: Could not convert Native argument arg 0 [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 1751: NS_ERROR_XPC_BAD_CONVERT_NATIVE: Could not convert Native argument arg 0 [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 1751: NS_ERROR_XPC_BAD_CONVERT_NATIVE: Could not convert Native argument arg 0 [nsIDocShell.domWindow]
+console.error: "Unable to find target with innerWindowId:6442453809"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 11743de00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+console.error: "Unable to find target with innerWindowId:6442453805"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "Unable to find target with innerWindowId:1722281885748"
+console.error: "Unable to find target with innerWindowId:1722281885748"
+console.error: "Unable to find target with innerWindowId:1722281885752"
+console.error: "Unable to find target with innerWindowId:1722281885752"
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 114125a00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 114278d00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 115ca9700 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+console.error: "Unable to find target with innerWindowId:1722281885844"
+console.error: "Unable to find target with innerWindowId:1722281885844"
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 114c2a200 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "Unable to find target with innerWindowId:1722281885824"
+console.error: "Unable to find target with innerWindowId:1722281885838"
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 114b07200 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "Unable to find target with innerWindowId:1722281885826"
+console.error: "Unable to find target with innerWindowId:1722281885842"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1717986918421/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1717986918421/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target server0.conn0.windowGlobal1717986918423/windowGlobalTarget2" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1717986918421/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1717986918421/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Unable to find target with innerWindowId:1717986918421"
+console.error: "Unable to find target with innerWindowId:1717986918421"
+console.error: "Unable to find target with innerWindowId:1717986918421"
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3369: TypeError: data.frameData.id is null
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal1717986918421/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+_getWalker@resource://devtools/client/fronts/inspector.js:90:30
+initialize@resource://devtools/client/fronts/inspector.js:79:12
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal1717986918421/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+_getWalker@resource://devtools/client/fronts/inspector.js:90:30
+initialize@resource://devtools/client/fronts/inspector.js:79:12
+
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 11e7c5a00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: https://ap.lijit.com/containertag?zoneId=601054&containerId=3&v=4&tid=a_601054_2261c8487de64ab989f6e09fe0b178f1&loc=https://apex.tracker.gg/apex/leaderboards/stats/all/RankScore?page=1&gdpr_flag=, line 1: TypeError: sovrn.auction.fireTags is not a function
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts//Ad_2_216_3_0/ebStdBanner.js, line 119: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 11aec7b00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+JavaScript error: https://pxdrop.lijit.com/a/t_.htm?ver=1.864.437&cid=c026, line 1: SyntaxError: JSON.parse: expected ':' after property name in object at line 1 column 6 of the JSON data
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 11aec7b00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442453825/layout29, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442453825/layout29, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1722281885847/layout34, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1722281885847/layout34, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1722281885857/layout25, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1722281885857/layout25, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1722281885849/layout34, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1722281885849/layout34, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1722281885851/layout120, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1722281885851/layout120, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780673/layout27, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780673/layout27, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780675/layout33, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780675/layout33, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780677/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780677/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780679/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780679/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780681/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780681/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780683/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780683/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780687/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780687/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780689/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780689/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780691/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780691/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780695/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780695/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780697/layout27, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780697/layout27, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780699/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780699/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780701/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780701/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780703/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal1801738780703/layout28, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Unable to find target with innerWindowId:1801738780675"
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 114124d00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 114126500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 56289, MediaDecoderStateMachine #1] WARNING: 11b293500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
