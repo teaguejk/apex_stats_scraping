@@ -27,16 +27,6 @@ Rank - retrieves the users current rank in the ranked game mode
 Gamemode - Retrieves the last played game mode
 Matches - Retrieves the users last played matches and how long ago it was played
 
-Additional Work
-
-scraped all important attributes on the user item page
-
->5 user pages scraped
-
-if the url is the sites main page, scrape the data about the current legend meta and 
-output that in a separate json file, should not execute any further code on that run becuase
-it is a separate item page.
-
 """
 
 from urllib.parse import urlparse
