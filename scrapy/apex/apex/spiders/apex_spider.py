@@ -106,7 +106,6 @@ class ApexSpider(scrapy.Spider):
 		ret['arenas_rank_label'] = rank_label[1].strip()
 		ret['areans_mmr'] = mmr[1].strip()
 
-
 		# gets the last used legends name
 		legend = response.css('div.legend__name::text').get()
 		ret['recent_legend'] = legend
