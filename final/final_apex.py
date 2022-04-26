@@ -5,7 +5,7 @@
 # 04/20/22
 """
 
-# -----------------------------------------------------------------------------------------------------
+# ==================================================================================================
 # Set Up
 
 # imports
@@ -38,16 +38,17 @@ if headless:
 else:
 	driver = webdriver.Firefox()
 
-# -----------------------------------------------------------------------------------------------------
-# get leaderboard data
+# ==================================================================================================
+# getting data
 try:
-	# go to the leaderboard page
+
+	# gets my page first 
+
+	# go to the home page
 	driver.get(home)
-	# driver.get(leaderboard)
 	time.sleep(1)
 
-# ==================================================================================================
-	# get my page first
+	# enter username in search box and retrieve
 	textbox = driver.find_element_by_css_selector('.search-box__bar > form:nth-child(2) > input:nth-child(1)')
 	time.sleep(1)
 	textbox.click()
@@ -56,6 +57,8 @@ try:
 	textbox.send_keys(Keys.ENTER)
 	time.sleep(1)
 
+
+	# -----------------------------------------------------------------------------------------------------
 	# getting data values from the page
 
 	# player id
@@ -83,6 +86,7 @@ try:
 
 	# gets most recently used legend
 	legend = driver.find_element_by_css_selector('div.legend__name').text
+	# -----------------------------------------------------------------------------------------------------
 
 	# create data and append to json lines file
 	data = {
@@ -101,6 +105,7 @@ try:
 
 	}
 
+	# append to file
 	with open('apex.jl', 'a') as fp:
 		fp.write(json.dumps(data))
 		fp.write('\n')
@@ -108,80 +113,109 @@ try:
 # ==================================================================================================
 # begin getting leaderboard data
 
+	# click the leaderboard page 
 	driver.find_element_by_css_selector('li.item:nth-child(3) > a:nth-child(1) > div:nth-child(2) > div:nth-child(1) > span:nth-child(1)').click()
 	time.sleep(1)
 
-	# get all hrefs in table and loop
-	links = driver.find_elements_by_css_selector('tr > td.username > div.text > a')
-	link_hrefs = [link.get_attribute('href') for link in links]
+	# get 10 pages or 1,000 users (100 users per page)
+	for i in range(9):
 
-	# looping through each page
-	for link in link_hrefs:
+		# get all hrefs in table and loop
+		links = driver.find_elements_by_css_selector('tr > td.username > div.text > a')
+		link_hrefs = [link.get_attribute('href') for link in links]
 
-		# filter bad links
-		if "twitch" in link:
-			continue
-		elif "twitter" in link:
-			continue
+		# looping through each page
+		for link in link_hrefs:
 
-		# go to link and wait --possibly use wait for element functions
-		driver.get(link)
-		time.sleep(1) 
+			# filter bad links
+			if "twitch" in link:
+				continue
+			elif "twitter" in link:
+				continue
 
-		# ==================================================================================================
-		# getting data values from the page
+			# go to link and wait --possibly use wait for element functions
+			driver.get(link)
+			time.sleep(1) 
 
-		# player id
-		user_id = driver.find_element_by_css_selector('span.trn-ign__username').text
+		# -----------------------------------------------------------------------------------------------------
+			# getting data values from the page
 
-		# views 
-		views = driver.find_element_by_css_selector('div.ph-details__subtitle > span > span').text
+			# player id
+			user_id = driver.find_element_by_css_selector('span.trn-ign__username').text
 
-		# stats --neds to be fixed
-		stats 	= driver.find_elements_by_css_selector('div.wrapper > div.numbers > span.value')
-		level 	= stats[0].text
-		kills 	= stats[1].text
-		# damage 	= stats[2].text
-		# matches = stats[3].text
+			# views 
+			views = driver.find_element_by_css_selector('div.ph-details__subtitle > span > span').text
 
-		# ranked and arenas stats
-		rank 	= driver.find_elements_by_css_selector('div.rating-entry__rank > div > div.rating-entry__rank-info > div.label')
-		mmr 	= driver.find_elements_by_css_selector('div.rating-entry__rank > div > div.rating-entry__rank-info > div.value > span')
+			# stats --neds to be fixed
+			stats 	= driver.find_elements_by_css_selector('div.wrapper > div.numbers > span.value')
+			level 	= stats[0].text
+			kills 	= stats[1].text
+			# damage 	= stats[2].text
+			# matches = stats[3].text
 
-		br_rank = rank[0].text.strip()
-		br_mmr 	=  mmr[0].text.strip()
+			# ranked and arenas stats
+			rank 	= driver.find_elements_by_css_selector('div.rating-entry__rank > div > div.rating-entry__rank-info > div.label')
+			mmr 	= driver.find_elements_by_css_selector('div.rating-entry__rank > div > div.rating-entry__rank-info > div.value > span')
 
-		ar_rank = rank[1].text.strip()
-		ar_mmr 	=  mmr[1].text.strip()
+			br_rank = rank[0].text.strip()
+			br_mmr 	=  mmr[0].text.strip()
 
-		# gets most recently used legend
-		legend = driver.find_element_by_css_selector('div.legend__name').text
+			ar_rank = rank[1].text.strip()
+			ar_mmr 	=  mmr[1].text.strip()
 
-		# ==================================================================================================
+			# gets most recently used legend
+			legend = driver.find_element_by_css_selector('div.legend__name').text
+
+		# -----------------------------------------------------------------------------------------------------
+
+			# create data and append to json lines file
+			data = {
+			
+				'user_id'	: user_id,
+				'views'		: views,
+				'level'		: level,
+				'kills'		: kills,
+				# 'damage'	: damage,
+				# 'matches'	: matches,
+				'br_rank'	: br_rank,
+				'br_mmr'	: br_mmr,
+				'ar_rank'	: ar_rank,
+				'ar_mmr'	: ar_mmr,
+				'legend'	: legend,
+
+			}
+
+			# append to file
+			with open('apex.jl', 'a') as fp:
+				fp.write(json.dumps(data))
+				fp.write('\n')
+
+		# go back to leaderboard page
+		driver.back()
+		# click next page button
+		driver.find_element_by_css_selector().click()
+
+	
+	"""
+	TODO:
+	The for loop grabs the table elements on the current page
+	Stops after 100
+	Need to click on the next page to scrape 9 more pages (10 total pages, top 1000 players)
+	
+	Steps:
+	Have driver click the next page button after each for loop and then someohow return to the begining 
+	without creating 9 more loops. 
+	Outer nested for loop  like this: for i in range(10)  ???
+	Run on PC overnight and have 1000 entries
+
+	"""
 
 
-		# create data and append to json lines file
-		data = {
-		
-			'user_id'	: user_id,
-			'views'		: views,
-			'level'		: level,
-			'kills'		: kills,
-			# 'damage'	: damage,
-			# 'matches'	: matches,
-			'br_rank'	: br_rank,
-			'br_mmr'	: br_mmr,
-			'ar_rank'	: ar_rank,
-			'ar_mmr'	: ar_mmr,
-			'legend'	: legend,
 
-		}
 
-		with open('apex.jl', 'a') as fp:
-			fp.write(json.dumps(data))
-			fp.write('\n')
 
-# -----------------------------------------------------------------------------------------------------
+
+# ==================================================================================================
 # close webdriver
 except:
 	driver.quit()
