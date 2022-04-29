@@ -48,13 +48,12 @@ try:
 	# click the leaderboard page 
 	# driver.find_element_by_css_selector('li.item:nth-child(3) > a:nth-child(1) > div:nth-child(2) > div:nth-child(1) > span:nth-child(1)').click()
 	
-	# driver.get(leaderboard)
+	driver.get(leaderboard)
 
-	driver.get('https://apex.tracker.gg/apex/leaderboards/stats/all/RankScore?page=10')
 	time.sleep(5)
 
 	# get 11 pages or around 1,100 users (100 users per page, some are skipped)
-	for i in range(1):
+	for i in range(10):
 
 		# get all hrefs in table and loop
 		links = driver.find_elements_by_css_selector('tr > td.username > div.text > a')
@@ -130,14 +129,14 @@ try:
 			except:
 				continue
 
-		# # go back to leaderboard page
-		# driver.get(leaderboard)
-		# time.sleep(2)
-		# # scroll to the bottom of the page
-		# driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-		# time.sleep(1)
-		# # click next page button
-		# driver.find_element_by_css_selector('div.trn-button:nth-child(3) > svg:nth-child(1) > path:nth-child(1)').click()
+		# go back to leaderboard page
+		driver.get(leaderboard)
+		time.sleep(2)
+		# scroll to the bottom of the page
+		driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+		time.sleep(2)
+		# click next page button
+		driver.find_element_by_css_selector('div.trn-button:nth-child(3) > svg:nth-child(1) > path:nth-child(1)').click()
 
 	
 	"""
