@@ -1,6 +1,6 @@
 """
 # Jaracah Teague
-# Apex - Final Project
+# Apex - Final project web scraper
 # Appalachian State University
 # 04/20/22
 """
