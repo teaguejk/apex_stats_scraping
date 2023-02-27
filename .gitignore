@@ -1,4 +1,4 @@
-*.scrapy
+.scrapy
 .DS_store
 geckodriver.log
 ```
